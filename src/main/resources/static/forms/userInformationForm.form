@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "label": "Họ tên người gửi",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1yo8809",
+        "columns": null
+      },
+      "id": "Field_1n5gr8y",
+      "key": "senderName",
+      "defaultValue": "Duy Nguyen Bui",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Địa chỉ người gửi",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_060sh9l",
+        "columns": null
+      },
+      "id": "Field_0ekfjfk",
+      "key": "senderAddress",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "SĐT người gửi",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0d0gp8y",
+        "columns": null
+      },
+      "id": "Field_0cob1uy",
+      "key": "senderPhone",
+      "validate": {
+        "required": true,
+        "pattern": "^(^\\+251|^251|^0)?(9|7)\\d{8}$"
+      }
+    },
+    {
+      "label": "Họ tên người nhận",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0slbvqv",
+        "columns": null
+      },
+      "id": "Field_1kxw7jo",
+      "key": "recipientName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Địa chỉ người nhận",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_01fm95x",
+        "columns": null
+      },
+      "id": "Field_0ljluel",
+      "key": "recipientAddress",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "SĐT người nhận",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1z0wj9y",
+        "columns": null
+      },
+      "id": "Field_03bdlqg",
+      "key": "recipientPhone",
+      "validate": {
+        "required": true,
+        "pattern": "^(^\\+251|^251|^0)?(9|7)\\d{8}$"
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Hàng dễ vỡ",
+          "value": "glass"
+        },
+        {
+          "label": "Thực phẩm",
+          "value": "food"
+        },
+        {
+          "label": "Giấy tờ",
+          "value": "papers"
+        },
+        {
+          "label": "Thông thường",
+          "value": "normal"
+        }
+      ],
+      "label": "Loại hàng",
+      "type": "select",
+      "layout": {
+        "row": "Row_0w1omlq",
+        "columns": null
+      },
+      "id": "Field_0de0923",
+      "key": "packageType",
+      "defaultValue": "normal",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Trọng lượng",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0rxlbpi",
+        "columns": null
+      },
+      "id": "Field_0mujbdi",
+      "key": "weight",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Nhanh",
+          "value": "fast"
+        },
+        {
+          "label": "Tiết Kiệm",
+          "value": "saving"
+        }
+      ],
+      "label": "Loại vận chuyển",
+      "type": "select",
+      "layout": {
+        "row": "Row_08lf73z",
+        "columns": null
+      },
+      "id": "Field_0pmcb2v",
+      "key": "shippingType",
+      "defaultValue": "fast",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "userInformationForm",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.21.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 15
+}
