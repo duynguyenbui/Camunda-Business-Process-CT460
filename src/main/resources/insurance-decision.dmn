@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_07j4ru5" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.21.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.20.0">
+  <decision id="insurance-decision" name="Insurance Decision">
+    <decisionTable id="DecisionTable_1v2k5s2">
+      <input id="Input_1" camunda:inputVariable="packageType">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text>packageType</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" name="extra" typeRef="long" />
+      <rule id="DecisionRule_0dvzgid">
+        <inputEntry id="UnaryTests_0qgta2c">
+          <text>"glass"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_09sekf0">
+          <text>20000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_15354ph">
+        <inputEntry id="UnaryTests_0ooouj1">
+          <text>"food"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_15hjixl">
+          <text>10000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_19h4229">
+        <inputEntry id="UnaryTests_10lkgrq">
+          <text>"papers"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_13364sx">
+          <text>25000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1nc8sh2">
+        <inputEntry id="UnaryTests_07qpzpz">
+          <text>"normal"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1amc81z">
+          <text>15000</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="insurance-decision">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

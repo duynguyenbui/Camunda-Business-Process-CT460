@@ -129,6 +129,28 @@
     {
       "values": [
         {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "Buy Insurance",
+      "type": "select",
+      "layout": {
+        "row": "Row_0mjdg69",
+        "columns": null
+      },
+      "id": "Field_0drvw8q",
+      "key": "buyInsurance",
+      "defaultValue": "no",
+      "description": "Buy Insurance for type of packages you want to send"
+    },
+    {
+      "values": [
+        {
           "label": "Nhanh",
           "value": "fast"
         },

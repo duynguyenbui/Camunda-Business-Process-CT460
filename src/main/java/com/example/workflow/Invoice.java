@@ -6,6 +6,12 @@ import org.camunda.bpm.engine.delegate.JavaDelegate;
 public class Invoice implements JavaDelegate {
     @Override
     public void execute(DelegateExecution delegateExecution) throws Exception {
+
+        long extra = 0;
+        if (delegateExecution.getVariable("extra") != null) {
+            extra = (long) delegateExecution.getVariable("extra");
+        }
+
         System.out.println("LOG:::Export Invoice Processing");
         System.out.println("**************************************************");
         System.out.println("****************** INVOICE ***********************");
@@ -23,7 +29,10 @@ public class Invoice implements JavaDelegate {
                 + "\nWeight: " + delegateExecution.getVariable("weight")
                 + "\nShipping service type: " + delegateExecution.getVariable("shippingType"));
         System.out.println("**************************************************");
-        System.out.println("TOTAL AMOUNT: " + delegateExecution.getVariable("amount") + " VND");
+        if (extra != 0) {
+            System.out.println("Insurance for " + delegateExecution.getVariable("packageType") + ": " + extra);
+        }
+        System.out.println("Amount: " + delegateExecution.getVariable("amount") + " VND");
         System.out.println("**************************************************");
     }
 }
