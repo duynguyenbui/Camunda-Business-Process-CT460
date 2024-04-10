@@ -25,7 +25,8 @@
       "key": "senderAddress",
       "validate": {
         "required": true
-      }
+      },
+      "defaultValue": "Can Tho"
     },
     {
       "label": "SĐT người gửi",
@@ -39,7 +40,8 @@
       "validate": {
         "required": true,
         "pattern": "^(^\\+251|^251|^0)?(9|7)\\d{8}$"
-      }
+      },
+      "defaultValue": "0944755822"
     },
     {
       "label": "Họ tên người nhận",
@@ -52,7 +54,8 @@
       "key": "recipientName",
       "validate": {
         "required": true
-      }
+      },
+      "defaultValue": "Bui Duy Nguyen"
     },
     {
       "label": "Địa chỉ người nhận",
@@ -65,7 +68,8 @@
       "key": "recipientAddress",
       "validate": {
         "required": true
-      }
+      },
+      "defaultValue": "Long Phu"
     },
     {
       "label": "SĐT người nhận",
@@ -79,7 +83,8 @@
       "validate": {
         "required": true,
         "pattern": "^(^\\+251|^251|^0)?(9|7)\\d{8}$"
-      }
+      },
+      "defaultValue": "0955866933"
     },
     {
       "values": [
@@ -124,7 +129,8 @@
       "key": "weight",
       "validate": {
         "required": true
-      }
+      },
+      "defaultValue": "15000"
     },
     {
       "values": [

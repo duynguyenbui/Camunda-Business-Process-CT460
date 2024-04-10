@@ -1,0 +1,35 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Continue",
+          "value": "continue"
+        },
+        {
+          "label": "Cancel",
+          "value": "cancel"
+        }
+      ],
+      "label": "Cancel Before Continuing",
+      "type": "select",
+      "layout": {
+        "row": "Row_09o3uup",
+        "columns": null
+      },
+      "id": "Field_008hdl0",
+      "key": "cancelBefore",
+      "description": "Cancel before Continuing",
+      "defaultValue": "cancel"
+    }
+  ],
+  "type": "default",
+  "id": "cancelForm",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.21.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 15
+}
