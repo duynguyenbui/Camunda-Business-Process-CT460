@@ -11,7 +11,7 @@
           "value": "cancel"
         }
       ],
-      "label": "Cancel Before Continuing",
+      "label": "Cancel Service",
       "type": "select",
       "layout": {
         "row": "Row_09o3uup",
@@ -19,7 +19,7 @@
       },
       "id": "Field_008hdl0",
       "key": "cancelBefore",
-      "description": "Cancel before Continuing",
+      "description": "Cancel Service",
       "defaultValue": "cancel"
     }
   ],

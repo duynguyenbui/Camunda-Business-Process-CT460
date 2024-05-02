@@ -90,7 +90,7 @@
       "values": [
         {
           "label": "Hàng dễ vỡ",
-          "value": "glass"
+          "value": "fragile"
         },
         {
           "label": "Thực phẩm",

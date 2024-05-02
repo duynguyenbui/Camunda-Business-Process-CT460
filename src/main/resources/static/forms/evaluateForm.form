@@ -1,0 +1,46 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "1",
+          "value": "oneStar"
+        },
+        {
+          "label": "3",
+          "value": "twoStars"
+        },
+        {
+          "label": "2",
+          "value": "threeStars"
+        },
+        {
+          "label": "4",
+          "value": "fourStars"
+        },
+        {
+          "label": "5",
+          "value": "fiveStars"
+        }
+      ],
+      "label": "Number of Start For Transportation Service",
+      "type": "select",
+      "layout": {
+        "row": "Row_1rk1ato",
+        "columns": null
+      },
+      "id": "Field_01hpwbi",
+      "key": "numberOfStar",
+      "defaultValue": "fiveStars"
+    }
+  ],
+  "type": "default",
+  "id": "evaluateForm",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.21.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 15
+}

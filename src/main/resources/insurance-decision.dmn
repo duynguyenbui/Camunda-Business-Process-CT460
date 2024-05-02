@@ -10,7 +10,7 @@
       <output id="Output_1" name="extra" typeRef="long" />
       <rule id="DecisionRule_0dvzgid">
         <inputEntry id="UnaryTests_0qgta2c">
-          <text>"glass"</text>
+          <text>"fragile"</text>
         </inputEntry>
         <outputEntry id="LiteralExpression_09sekf0">
           <text>20000</text>
